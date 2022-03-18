@@ -24,10 +24,10 @@ filename = sense + " - " + \
 
 
 conn = pyodbc.connect("Driver={SQL Server Native Client 11.0};"
-                      "Server=w2019.hausz.com.br;"
+                      "Server=;"
                       "Database=HauszMapa;"
-                      "UID=Aplicacao;"
-                      "PWD=S3nh4Apl!caca0")
+                      "UID=;"
+                      "PWD=")
 
 select_bd = """
         SELECT 
