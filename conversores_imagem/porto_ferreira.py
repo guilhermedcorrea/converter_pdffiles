@@ -5,10 +5,10 @@ import numpy as np
 from datetime import date
 
 conn = pyodbc.connect("Driver={SQL Server Native Client 11.0};"
-                      "Server=w2019.hausz.com.br;"
-                      "Database=HauszMapa;"
-                      "UID=Aplicacao;"
-                      "PWD=S3nh4Apl!caca0")
+                      "Server=;"
+                      "Database=;"
+                      "UID=;"
+                      "PWD=")
 
 select_bd = """
         SELECT 
