@@ -29,9 +29,9 @@ def file_names(elementos):
 
 def consulta_ftp(elementos):
     lista_files = []
-    HOSTNAME = "w2019.hausz.com.br"
-    USERNAME = "Aplicacao"
-    PASSWORD = "S3nh4Aplic4cao!"
+    HOSTNAME = ""
+    USERNAME = ""
+    PASSWORD = ""
     dirname = 'atualizacaoMarcaPDF'
     # filename = 'Gaudi-2021-12-02-gaudi.pdf'
     savedir = 'D:\\Trabalhos Python\\testes_aplicacao\\'
